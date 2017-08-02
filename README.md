@@ -1,0 +1,1 @@
+Start this Hugo project with `hugo server -D`
