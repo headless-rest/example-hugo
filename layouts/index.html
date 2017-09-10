@@ -25,10 +25,10 @@
         {{ $blogItems := getJSON $contentUrl }}
         {{ range $blogItems.items }}
           <h2>
-            {{ .content.en.Title }}
+            {{ .content.en.title }}
           </h2>
           <div>
-            {{ .content.en.Body | safeHTML }}
+            {{ .content.en.body | safeHTML }}
           </div>
         {{ end }}
       </section>
