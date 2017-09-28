@@ -21,7 +21,7 @@
         {{ end }}
 
       <section class="w-100 mw8">
-        {{ $contentUrl := "http://content.headless.rest/api/v1/demo-website/content/blog?token=3eqUsAwZa59vNSHXhQBQ1lxWILXy9u7u" }}
+        {{ $contentUrl := "https://content.headless.rest/api/v1/demo-website/content/blog?token=3eqUsAwZa59vNSHXhQBQ1lxWILXy9u7u" }}
         {{ $blogItems := getJSON $contentUrl }}
         {{ range $blogItems.items }}
           <h2>
